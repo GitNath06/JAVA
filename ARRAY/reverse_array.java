@@ -32,12 +32,12 @@ public class reverse_array {
             data_rev[n-1-i]=data[i];
         }
         */
-        // method-3: Without creating a new array
-        // for(int i=0;i<n/2; i++){
-        //     temp=data[i];
-        //     data[i]=data[n-i-1];
-        //     data[n-i-1]=temp;
-        // }
+        method-3: Without creating a new array
+        for(int i=0;i<n/2; i++){
+            temp=data[i];
+            data[i]=data[n-i-1];
+            data[n-i-1]=temp;
+        }
         
         System.out.println("The Elements in Reverse Order : ");
 
