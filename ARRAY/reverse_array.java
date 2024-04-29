@@ -32,8 +32,9 @@ public class reverse_array {
             data_rev[n-1-i]=data[i];
         }
         */
-        method-3: Without creating a new array
+        // method-3: Without creating a new array
         for(int i=0;i<n/2; i++){
+        //only upto n/2 because while reversing the elements upto half of array elements other half will be done automatically  
             temp=data[i];
             data[i]=data[n-i-1];
             data[n-i-1]=temp;
