@@ -36,11 +36,7 @@ public class transpose_matrix{
                 System.out.print(a[j][i] + " ");
             }
             System.out.println(" ");
-        }
-
-   
-        
-        
-          
+        } 
+                  
     }
 }
